@@ -1,5 +1,12 @@
 {
     "require": {
         "webonyx/graphql-php": "^0.13.8"
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "GraphQL\\Tests\\": "tests/",
+          "GraphQL\\Benchmarks\\": "benchmarks/",
+          "GraphQL\\Examples\\Blog\\": "examples/01-blog/Blog/"
+        }
     }
 }
